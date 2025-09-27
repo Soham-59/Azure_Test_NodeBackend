@@ -1,13 +1,14 @@
 {
-  "name": "node_backend_azure",
+  "name": "azure-test-nodebackend",
   "version": "1.0.0",
-  "description": "AZure web app hosting",
-  "license": "ISC",
-  "author": "Soham Deshmukh",
-  "type": "commonjs",
+  "description": "Node.js Backend",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",  <-- ADD THIS LINE
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.18.2" 
+    // Add all your dependencies here!
   }
 }
